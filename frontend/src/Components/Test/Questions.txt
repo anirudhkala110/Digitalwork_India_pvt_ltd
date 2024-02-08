@@ -1,0 +1,125 @@
+ const questions = [
+    {
+      id: 1,
+      question: 'What does a red traffic light mean?',
+      options: ['Stop', 'Go', 'Slow down'],
+      correctAnswer: 'Stop'
+    },
+    {
+      id: 2,
+      question: 'What does a yield sign mean?',
+      options: ['Slow down', 'Merge', 'Give way to other traffic'],
+      correctAnswer: 'Give way to other traffic'
+    },
+    {
+        id: 3,
+        question: 'What does a yellow traffic light mean?',
+        options: ['Speed up', 'Prepare to stop', 'Continue with caution'],
+        correctAnswer: 'Prepare to stop'
+      },
+      {
+        id: 4,
+        question: 'What does a green arrow traffic light mean?',
+        options: ['Stop', 'Go straight only', 'Go in the direction of the arrow'],
+        correctAnswer: 'Go in the direction of the arrow'
+      },
+      {
+        id: 5,
+        question: 'What does a white rectangular sign with black lettering indicate?',
+        options: ['School zone', 'Speed limit', 'Regulatory information'],
+        correctAnswer: 'Regulatory information'
+      },
+      {
+        id: 6,
+        question: 'What does a sign with two arrows pointing in opposite directions indicate?',
+        options: ['One-way street', 'No passing zone', 'Two-way traffic'],
+        correctAnswer: 'Two-way traffic'
+      },
+      {
+        id: 7,
+        question: 'What is the maximum speed limit in a residential area in most states?',
+        options: ['20 mph', '25 mph', '30 mph'],
+        correctAnswer: '25 mph'
+      },
+      {
+        id: 8,
+        question: 'What should you do if your vehicle starts to hydroplane?',
+        options: ['Brake suddenly', 'Accelerate', 'Ease off the gas and steer in the direction you want to go'],
+        correctAnswer: 'Ease off the gas and steer in the direction you want to go'
+      },
+      {
+        id: 9,
+        question: 'When should you use your headlights?',
+        options: ['Only at night', 'When it is raining', 'All the time'],
+        correctAnswer: 'All the time'
+      },
+      {
+        id: 10,
+        question: 'What should you do if you encounter a large animal crossing the road?',
+        options: ['Brake immediately', 'Swerve to avoid the animal', 'Slow down and be prepared to stop'],
+        correctAnswer: 'Slow down and be prepared to stop'
+      },
+      {
+        id: 11,
+        question: 'What is the purpose of a roundabout?',
+        options: ['To increase traffic flow', 'To slow down traffic', 'To eliminate the need for traffic lights'],
+        correctAnswer: 'To increase traffic flow'
+      },
+      {
+        id: 12,
+        question: 'What is the correct hand signal for indicating a left turn?',
+        options: ['Left hand and arm extended upward', 'Right hand and arm extended horizontally', 'Left hand and arm extended horizontally'],
+        correctAnswer: 'Left hand and arm extended horizontally'
+      },
+      {
+        id: 13,
+        question: 'When should you use your hazard lights?',
+        options: ['When driving at night', 'When double-parked', 'When you need to warn other drivers of a hazard'],
+        correctAnswer: 'When you need to warn other drivers of a hazard'
+      },
+      {
+        id: 14,
+        question: 'What should you do if you miss your exit on the highway?',
+        options: ['Reverse and go back', 'Continue to the next exit', 'Stop and wait for assistance'],
+        correctAnswer: 'Continue to the next exit'
+      },
+      {
+        id: 15,
+        question: 'What is the minimum distance you should maintain from the vehicle ahead of you?',
+        options: ['One car length', 'Two seconds', 'Five feet'],
+        correctAnswer: 'Two seconds'
+      },
+      {
+        id: 16,
+        question: 'What does a red triangle sign mean?',
+        options: ['Stop sign ahead', 'Yield sign ahead', 'Roadwork or maintenance ahead'],
+        correctAnswer: 'Roadwork or maintenance ahead'
+      },
+      {
+        id: 17,
+        question: 'What does a red X over a lane indicate on a highway?',
+        options: ['That the lane is closed', 'That the lane is reserved for emergency vehicles', 'That the lane is a carpool lane'],
+        correctAnswer: 'That the lane is closed'
+      },
+      {
+        id: 18,
+        question: 'When approaching a railroad crossing, when should you stop?',
+        options: ['Only if you see a train coming', 'If the crossing arms are down or the warning lights are flashing', 'Never'],
+        correctAnswer: 'If the crossing arms are down or the warning lights are flashing'
+      },
+      {
+        id: 19,
+        question: "What should you do if your vehicle's brakes fail?",
+        options: ['Pump the brakes repeatedly', 'Shift to a lower gear', 'Use the parking brake and slow down gradually'],
+        correctAnswer: 'Shift to a lower gear'
+      },
+      {
+        id: 20,
+        question: 'What is the purpose of a rumble strip on the side of the road?',
+        options: ['To alert drivers when they are veering off the road', 'To reduce road noise', 'To improve traction in wet conditions'],
+        correctAnswer: 'To alert drivers when they are veering off the road'
+      }
+      
+      
+    // Add more questions here
+  ];

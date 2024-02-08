@@ -1,0 +1,19 @@
+            <Card sx={{ p: 2.5 }}>
+                <Stack direction="row" alignItems="center" spacing={2} useFlexGap>
+                    <Avatar variant="rounded" src="avatar.jpg" />
+                    <div>
+                        <Stack direction="row" alignItems="center" spacing={1} useFlexGap>
+                            <Typography fontWeight="fontWeightBold">Lucas Smith</Typography>
+                            <Chip
+                                size="small"
+                                color={active ? 'success' : 'default'}
+                                label={active ? 'Active' : 'Inactive'}
+                            />
+                        </Stack>
+                        <Typography variant="body2" color="text.secondary">
+                            Scranton, PA, United States
+                        </Typography>
+                    </div>
+                    <Switch sx={{ ml: 'auto' }} />
+                </Stack>
+            </Card>

@@ -1,0 +1,16 @@
+@media print {
+  .print {
+    display: none !important;
+  }
+  .driving-license{
+    max-width: 700px !important;
+    min-width: 500px !important;
+  }
+}
+button:focus{
+outline: none !important;
+}
+
+.mdl{
+  transition: .5s ease-in-out;
+}
